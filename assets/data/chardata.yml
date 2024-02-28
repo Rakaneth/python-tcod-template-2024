@@ -1,0 +1,23 @@
+---
+base_hero: &player
+  ch: '@'
+  fg: [255, 255, 255]
+  name: Hero
+
+warrior:
+  <<: *player
+  fg: [255, 32, 32]
+  name: Thrakir
+  desc: Thrakir af Vitkulle is a large, imposing warrior from Falakia.
+
+dwarf:
+  <<: *player
+  fg: [192, 101, 64]
+  name: Rikkas
+  desc: Dosendr Rikkas Adain is a stout Dwarf of Mithril Gate.
+
+druid:
+  <<: *player
+  fg: [32, 255, 32]
+  name: Falwyn
+  desc: Falwyn Matrison is an unassuming druid of the Brotherhood of the Fang.

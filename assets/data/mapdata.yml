@@ -1,0 +1,40 @@
+---
+cave:
+  gen: drunkard
+  name: Cave
+  width: [30, 50]
+  height: [30, 50]
+  tier: 1
+  dark: true
+  monsters:
+    number: [1, 5]
+    types:
+      - humanoid
+      - cave
+  items:
+    number: [1, 5]
+    types:
+      - equipment
+      - consumable
+
+cavern:
+  gen: drunkard
+  name: Cavern
+  width: [50, 80]
+  height: [50, 80]
+  tier: 2
+  dark: true
+  monsters:
+    number: [15, 30]
+    tiers: [1, 2]
+    types:
+      - humanoid
+      - cave
+  items:
+    number: [5, 15]
+    tiers: [1, 2]
+    types:
+      - equipment
+      - consumable
+  
+  

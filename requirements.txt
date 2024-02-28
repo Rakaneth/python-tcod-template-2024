@@ -1,0 +1,9 @@
+attrs==23.1.0
+cattrs==23.1.2
+cffi==1.15.1
+numpy==1.25.1
+pycparser==2.21
+PyYAML==6.0.1
+tcod==16.1.1
+tcod-ecs==4.2.1
+typing_extensions==4.7.1
